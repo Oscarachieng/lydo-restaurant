@@ -85,6 +85,60 @@
             flex-wrap: wrap;
             justify-content: space-around;
         }
+        #tiny{
+            justify-content: space-evenly;
+            ;
+        }
+        #tiny > a >button{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .rad{
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+        .topmovers > .movers >div{
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: antiquewhite;
+        }
+        .footer{
+            background-color:darkcyan;
+            width: 800px;
+        }
+        .footer > .move{
+            display:flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: cadetblue;
+            font-size: x-large;
+        }
+        #a{
+            color: yellowgreen;
+        }
+        .f-lower{
+            display: flex;
+        }
+        #links{
+            display: flex;
+            justify-content: flex-end;
+        }
+        #links > div{
+            margin: 20px;
+        }
+        .socialmedia{
+            display: inline-block;
+            background-color: darksalmon;
+            width: 130px;
+            align-items: baseline;
+            padding-top: 110px;
+        }
+        .socialmedia > a {
+            margin: 10px;
+            margin-top: 150px;
+        }
+
+        
 
         
     </style>
@@ -117,60 +171,60 @@
         </div>
     </div>
     <div class="topmovers">
-        <h3>Our Top MOvers</h3>
+        <h3>Our Top Movers</h3>
         <div class="movers">
             <div class="A+">
-                <img src="assets/images/ehem 1.png" alt="A lorry" height="160px">
-                <p>A+ MOvers</p>
+                <img src="assets/images/ehem 1.png" alt="A lorry" height="159px">
+                <p>A+ Movers</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href=""><button class="rad">4</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button class="rad">#2</button></a>
                 </div>
             </div>
             <div class="A+">
                 <img src="assets/images/wewe 1.png" alt="A box" height="160px">
                 <p>Maridai Home Logistics</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href=""><button class="rad">4</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button class="rad">#2</button></a>
                 </div>
             </div>
             <div class="A+">
-                <img src="assets/images/movers 1.png" alt="A lorries" height="160px">
-                <p>Ufalme MOvers</p>
+                <img src="assets/images/movers 1.png" alt="A lorries" height="150px">
+                <p>Ufalme Movers</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href="" ><button class="rad">4</button></a>
+                    <a href="" ><button>2</button></a>
+                    <a href="" ><button class="rad">#2</button></a>
                 </div>
             </div>
             <div class="A+">
-                <img src="assets/images/chapchap 1.png" alt="cars" height="160px">
+                <img src="assets/images/chapchap 1.png" alt="cars" height="162px">
                 <p>MOvers Chapchap</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href="" ><button class="rad">4</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button class="rad">#2</button></a>
                 </div>
             </div>
             <div class="A+">
-                <img src="assets/images/mashinani 1.png" alt="Cars" height="160px">
+                <img src="assets/images/mashinani 1.png" alt="Cars" height="162px">
                 <p>Songa Mashinani</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href=""><button class="rad">4</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button class="rad">#2</button></a>
                 </div>
             </div>
             <div class="A+">
-                <img src="assets/images/songa 1.png" alt="A double cabbin" height="160px">
+                <img src="assets/images/songa 1.png" alt="A double cabbin" height="157px">
                 <p>Upesi Logistics</p>
                 <div id="tiny">
-                    <a href="">4</a>
-                    <a href="">2</a>
-                    <a href="">#2</a>
+                    <a href=""><button class="rad">4</button></a>
+                    <a href=""><button>2</button></a>
+                    <a href=""><button class="rad">#2</button></a>
                 </div>
             </div>
         </div>
@@ -178,44 +232,46 @@
     <div class="footer">
         <div class="move">
             <h3>Move at Tap of <span id="a">a button</span></h3>
-            <a href=""><button class="work">Work with us</button></a>
         </div>
+        <div class="f-lower">
+            <div class="socialmedia">
+                <a href=""><img src="assets/images/facebook.png" alt="facebook icon" height="20px"></a>
+                <a href=""><img src="assets/images/twitter-sign.png" alt="twitter icon" height="20px"></a>
+                <a href=""><img src="assets/images/instagram.png" alt="instagram icon" height="20px"></a>
+           </div>
+           <div id="links">
+              <div>
+                  <h5>Column heading</h5>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+              </div>
+              <div>
+                  <h5>Column heading</h5>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+              </div>
+              <div>
+                  <h5>Column heading</h5>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+              </div>
+              <div>
+                  <h5>Column heading</h5>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+                  <p>Link goes here</p>
+              </div>
+           </div>
+        </div>
+
          
-         <div class="socialmedia">
-              <a href=""><img src="assets/images/facebook.png" alt="facebook icon" height="20px"></a>
-              <a href=""><img src="assets/images/twitter-sign.png" alt="twitter icon" height="20px"></a>
-              <a href=""><img src="assets/images/instagram.png" alt="instagram icon" height="20px"></a>
-         </div>
-         <div id="links">
-            <div>
-                <h5>Column heading</h5>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-            </div>
-            <div>
-                <h5>Column heading</h5>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-            </div>
-            <div>
-                <h5>Column heading</h5>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-            </div>
-            <div>
-                <h5>Column heading</h5>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-                <p>Link goes here</p>
-            </div>
-         </div>
     </div>
 </body>
 </html>
