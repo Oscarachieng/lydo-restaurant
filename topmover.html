@@ -118,6 +118,32 @@
             padding: 10px;
             border-radius: 10px;
         }
+        .mid-section{
+            display: flex;
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+        }
+        label{
+            margin: 10px;
+            font-size: larger;
+        }
+        input{
+            padding: 10px;
+        }
+        .interested{
+            padding: 6px;
+            margin-top: 20px;
+        }
+        .user-profile{
+            margin-left: 40px;
+            border-style: groove;
+            height: 500px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
         
     </style>
 </head>
@@ -215,22 +241,20 @@
                 </div>
             </div>
             <div class="input-form">
-                <form action="">
-                    <label for="Name"><b>Name</b></label>
+                <form action="" class="inputs">
+                    <label for="Name"><b>Name :</b></label>
                     <input type="text" placeholder="Enter Name" name="name" id="name" required>
 
-                    <label for="Phone"><b>Phone</b></label>
+                    <label for="Phone"><b>Phone :</b></label>
                     <input type="text" placeholder="Enter Phone Number" name="phone" id="phone" required>
 
-                    <label for="Email"><b>Email</b></label>
+                    <label for="Email"><b>Email :</b></label>
                     <input type="text" placeholder="Enter Email" name="email" id="email" required>
                 </form>
                 <a href="">
                     <button class="interested">I'm interested in..</button>
                 </a>
-                <a href="">
-                    <button class="laern-more">I'm interested in..</button>
-                </a>
+                
             </div>
         </div>
    </div>
