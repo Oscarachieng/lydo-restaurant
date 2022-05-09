@@ -7,6 +7,13 @@
     <title>quickmovers</title>
     <link rel="stylesheet" href="./home/moringa/Desktop/lydo-restaurant/assets/css/style.css">
     <style>
+        .header{
+            border-color: cadetblue;
+            
+            border-bottom-style: groove;
+            border-bottom-width: 1px;
+            width: 100%;
+        }
         #nav{
            
             display: flex;
@@ -15,15 +22,39 @@
             width: 70%;
         }
         .header>#nav > li{
-            margin: 20px;
+            margin: 11px;
+            margin-top: 20px;
             padding: 5px;
+            padding-right: 0%;
 
+        }
+        .header>#nav > li>a{
+            text-transform: uppercase;
+            display: block;
+            text-decoration: none;
+            padding: 5px;
+            font-size: smaller;
+            
+        }
+        #white{
+            color: white;
+        }
+        a:hover{
+            background-color: lightcoral;
+            color: black;
+        }
+        #y-b:hover{
+            background-color: lightcoral;
         }
         #y-b{
             background-color: yellow;
             color: black;
-            padding: 6px;
+            padding: 3px;
             border-radius: 2px;
+        }
+        #b-y:hover{
+            background-color: lightcoral;
+            color: black;
         }
         #b-y{
             background-color: black;
@@ -77,10 +108,16 @@
             background-color: black;
             border-radius: 3px;
         }
+        .right> a >button:hover{
+            background-color: lightskyblue;
+            color: white;
+        }
         .topmovers{
             background-color: azure;
             width: 780px;
             padding-right: 120px;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
         .movers{
             display: flex;
@@ -92,9 +129,17 @@
             ;
         }
         #tiny > a >button{
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 26px;
+            padding-right: 26px;
+            border-width: 0px;
+            border-color: dimgray;
+            margin: 0px;
         }
+        #tiny > a >button:hover{
+            background-color: lightblue;
+            color: white;
+        }
+
         .rad{
             border-bottom-left-radius: 6px;
             border-bottom-right-radius: 6px;
@@ -106,7 +151,7 @@
         }
         .footer{
             background-color: black;
-            width: 900px;
+            width: 100%;
             height: 400px;
         }
         .footer > .move{
@@ -117,6 +162,8 @@
             font-size: x-large;
             color: white;
             border-bottom-style: groove;
+            border-bottom-width: 1px;
+            border-bottom-color: dimgrey;
         }
         #a{
             color: yellowgreen;
@@ -146,6 +193,7 @@
         }
         body{
             background-color: azure;
+            width: 70%;
         }
 
         
@@ -157,12 +205,12 @@
     <div class="bgImage">
         <div class="header">
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="topmover.html" target="_blank">Movers</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="" id="y-b">Log In</a></li>
-                <li><a href="" id="b-y">Log In</a></li>
+                <li><a href="#Home" id="white">Home</a></li>
+                <li><a href="#About Us" id="white">About Us</a></li>
+                <li><a href="topmover.html" target="_blank" id="white">Movers</a></li>
+                <li><a href="#Contact Us" id="white">Contact Us</a></li>
+                <li><a href="#Log In" id="y-b">Log In</a></li>
+                <li><a href="#LOg In" id="b-y">Log In</a></li>
             </ul>
         </div>
         <div class="sect1">
