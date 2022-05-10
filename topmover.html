@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our top movers</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/842386847e.js" crossorigin="anonymous"></script>
     <style>
         .header{
             color: white;
@@ -20,6 +21,7 @@
          align-items: center;
          border-bottom: groove;
          border-bottom-width: 1px;
+         padding-left: 40%;
 
         }
         .header > .nav > .links >li >a>button{
@@ -33,9 +35,10 @@
             padding: 3px;
         }
         .header > .nav > .links >li >a>button:hover{
-            background-color: lightblue;
+            background-color:blue;
             color: black;
             display: block;
+            border-radius: 8px;
         }
         #work{
             color: black;
@@ -44,8 +47,9 @@
             border-top-right-radius: 10px;
         }
         #work:hover{
-            background-color: lightblue;
+            background-color: blue;
             color: white;
+            border-radius: 8px;
         }
         .head-lower{
             background-color: black;
@@ -72,7 +76,15 @@
         }
         .det-btn{
           align-items: flex-start;
+          /*margin-left: 10px;*/
+          margin-left: 25px;
+          padding-bottom: 0px;
           
+          
+        }
+        .det-btn>a :hover{
+           background-color: blue;
+           color: white;
         }
         .tiny2{
           display: flex;
@@ -86,25 +98,44 @@
             margin-left: 30px;
         }
         .b{
-            padding-left: 45px;
+            padding-left: 37px;
             padding-right: 40px;
             padding-top: 10px;
-            padding-bottom: 10px;
+            padding-bottom: 30px;
+            display: flex;
+            
+            
+        }
+        .b:hover{
+            background-color: blue;
+           color: white;
         }
         .details{
             
             margin-top: 20px;
             margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: whitesmoke;
+            /*align-items: flex-start;*/
+            height: 136px;
+            border-radius: 15px;
+            
+            
         }
         .description{
             background-color: cornsilk;
             padding-top: 20px;
             padding-bottom: 20px;
             border-radius: 10px;
+            padding: 8px;
+            margin-bottom: 20px;
         }
         .description > h3{
             border-bottom: black;
-            border-style: groove;
+            border-bottom-style: groove;
+            border-bottom-width: 1px;
+           
             
         }
         .conditioning{
@@ -126,11 +157,20 @@
             border-color: floralwhite;
             margin-top: 10px;
             margin-bottom: 10px;
+            border-style: none;
+            border-radius: 5px;
+            background-color: lightgrey;
+        }
+        #air:hover{
+            background-color: blue;
+           color: white;
+           border-radius: 5px;
         }
         .features{
             background-color: floralwhite;
             padding: 10px;
             border-radius: 10px;
+            margin-bottom: 20px;
         }
         .mid-section{
             display: flex;
@@ -162,12 +202,29 @@
         .user-profile>.profile-photo{
            display: flex;
        }
-       #info> a:hover{
+       .info> a >button:hover{
            background-color: blue;
            color: white;
+           padding: 4px;
+           border-radius: 8px;
+       }
+       .input-form > a :hover{
+           background-color: blue;
+           color: white;
+           border-radius: 8px;
+
+       }
+       .similar{
+           background-color: burlywood;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
        }
         .malto{
             display: flex;
+            justify-content: space-between;
         }
         .malto-1{
             margin-top: 10px;
@@ -178,8 +235,17 @@
             ;
         }
         #tiny > a >button{
-            padding-left: 15px;
-            padding-right: 15px;
+            padding-left: 18px;
+            padding-right: 18px;
+            border-width: 1px;
+            border-color: darkgray;
+            border-style: none;
+            border-radius: 5px;
+        }
+        #tiny > a >button:hover{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
         }
         .rad{
             border-bottom-left-radius: 6px;
@@ -192,11 +258,12 @@
         }
         .footer-lower{
             display: flex;
+            width: 100%;
         }
         #links{
             display: flex;
             margin: 6px;
-            justify-content: space-around;
+            justify-content: space-between;
             
 
         }
@@ -233,11 +300,18 @@
             padding: 5px;
             border-top-right-radius: 10px;
         }
+        .work:hover{
+            background-color: blue;
+            color: white;
+            border-radius: 8px;
+        }
         .move{
             display: flex;
             justify-content: space-between;
-            width: 700px;
+            width: 100%;
             border-bottom-style: groove;
+            border-bottom-width: 1px;
+            border-bottom-color: darkgray;
         }
         .move>h3{
             color: white;
@@ -254,7 +328,7 @@
    <div class="header">
         <div class="nav">
             <ul class="links">
-                <li><a href="" id="nl"><button>New link</button></a></li>
+                <li><a href="index.html" id="nl"><button>home</button></a></li>
                 <li><a href="" id="nl"><button>New link</button></a></li>
                 <li><a href="" id="nl"><button>New link</button></a></li>
                 <li><a href="" id="nl"><button>New link</button></a></li>
@@ -285,11 +359,13 @@
                 <img src="assets/images/Rectangle-6.png" alt="" height="50px">
             </div>
             <div class="details">
-                <h4>Details</h4>
+                <div>
+                    <h4>Details</h4>
+                </div>
                 <div class="det-btn">
                     <ul class="tiny2">
-                        <li><a href="" ><button class="b">4</button></a></li>
-                        <li><a href="" ><button class="b">2</button></a></li>
+                        <li><a href="" ><button class="b"><i class="fa-solid fa-car"></i> 4</button></a></li>
+                        <li><a href="" ><button class="b"><i class="fa-solid fa-ship"></i> 2</button></a></li>
                         <li><a href="" ><button class="b">#2</button></a></li>
                         <li><a href="" ><button class="b">2007</button></a></li>
                     </ul>
@@ -358,6 +434,9 @@
                 </form>
                 <a href="">
                     <button class="interested">I'm interested in..</button>
+                </a>
+                <a href="">
+                    <button class="interested">Submit</button>
                 </a>
                 
             </div>
